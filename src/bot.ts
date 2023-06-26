@@ -4,7 +4,7 @@ import express from "express";
 // Create a bot using the Telegram token
 const bot = new Bot(process.env.TELEGRAM_TOKEN || "");
 
-const introductionMessage = `is this thing working??`;
+const introductionMessage = `could i should i add some scrapping one thousand times`;
 
 const replyWithIntro = (ctx: any) =>
   ctx.reply(introductionMessage, {
